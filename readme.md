@@ -32,3 +32,8 @@ Teaching myself some typescript typing language.
 - 'private' [Only accessable in the class on call of related function/method]
 - 'readonly' [Value assigned cannot be overwrite]
 - 'protected' [Can be accessed through extended classes]
+- 'get' [Read the property]
+- 'set' [Set the property]
+- 'static' [call the method in the class without using 'new' keyword, and detached from the classes]
+- 'abstract' [That assigned method have to be implemented based on the abstracted classes, it's kinda mandatory assigning to other classes - Enforce other extended classes to share the common method/property]
+- 'private' (in front of constructor) [Only have one instanced on the certain class]
