@@ -37,3 +37,7 @@ Teaching myself some typescript typing language.
 - 'static' [call the method in the class without using 'new' keyword, and detached from the classes]
 - 'abstract' [That assigned method have to be implemented based on the abstracted classes, it's kinda mandatory assigning to other classes - Enforce other extended classes to share the common method/property]
 - 'private' (in front of constructor) [Only have one instanced on the certain class]
+
+## Interface
+
+Describe the structure of an object and defines the syntax that any entity must adhere to. It's a pure typescript method and have no javascript assigned javascript output when compiling. Recommended for use on object structure type of data.
