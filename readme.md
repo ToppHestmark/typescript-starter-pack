@@ -25,3 +25,10 @@ Teaching myself some typescript typing language.
 - [-] (a: number, b: number) => number; (example of callback function with parameters)
 - unknown ~ Common use for user input, a stricter type of any ~
 - never ~ never return anything, a code that never return anything ~
+
+## Classes and properties
+
+- 'public' [by default]
+- 'private' [Only accessable in the class on call of related function/method]
+- 'readonly' [Value assigned cannot be overwrite]
+- 'protected' [Can be accessed through extended classes]
