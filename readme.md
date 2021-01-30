@@ -41,3 +41,13 @@ Teaching myself some typescript typing language.
 ## Interface
 
 Describe the structure of an object and defines the syntax that any entity must adhere to. It's a pure typescript method and have no javascript assigned javascript output when compiling. Recommended for use on object structure type of data.
+
+## Advances
+
+- Intersection type: Combining unions types that contain at least one similarities of value. (string, numbers, boolean etc.)
+- Typeguard: Checking instances of other types and then executed the method based on type checking.
+- Discriminated union: Makes and implementing typeguards
+- Typecasting: Tell typescript the type of element
+- Functions overload: Combline a function with a function that already contain union properties by assigning a same fuction above the previous without curly bracket or return statement.
+- Optional chaining: '?' in front of dot '.' before accessing data to specify if the data that one try to accessing exist or not.
+- Nullish Coalescing: '??' the similar as '||'. Help you to correlate a default value in case the callback object doesn't contain any value.
