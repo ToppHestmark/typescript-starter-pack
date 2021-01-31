@@ -56,3 +56,4 @@ Describe the structure of an object and defines the syntax that any entity must 
 
 - Connect with other types that specify which type of data that exist on the other types.
 - Tell the type what kind of data to be expected without specifying the type of data from the previous assignment, passing in the <> within the function.
+- Generics type lock in a type!
