@@ -57,3 +57,15 @@ Describe the structure of an object and defines the syntax that any entity must 
 - Connect with other types that specify which type of data that exist on the other types.
 - Tell the type what kind of data to be expected without specifying the type of data from the previous assignment, passing in the <> within the function.
 - Generics type lock in a type!
+
+## Decorators
+
+- Functions which are prefixed with @expression symbol, where the expression evaluates to function called at runtime with no information on the declaration.
+  For example., we shall use the decorator @sealed as below;
+
+```
+@sealed
+function sampleEmp(target) {
+// ‘target’ needs some coding here
+}
+```
